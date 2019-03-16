@@ -10,6 +10,7 @@ public class UnknownHostExample {
   private static final Logger LOGGER = Logger.getLogger(UnknownHostExample.class);
 
   public static void main(String[] args) {
+
     try {
       String hostname = "www.google.com";
       InetAddress address = InetAddress.getByName(hostname);
